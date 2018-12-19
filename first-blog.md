@@ -9,7 +9,7 @@ So instead using Github pages I careetd this react project for blogging.
 
 [Link to my Github account ](https://github.com/hegdevishwa)
 
-```js
+```js hljs javascript
 var React = require('react');
 var Markdown = require('react-markdown');
 
