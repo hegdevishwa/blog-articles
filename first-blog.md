@@ -7,4 +7,13 @@ Also I always wanted to create a space where I can record my learnings and progr
 So Finally that time came. I considered using Github pages for blog posts. But I also wanted to put my React knowledges into test.
 So instead using Github pages I careetd this react project for blogging.
 
-<a href="https://github.com/hegdevishwa" rel="nofollow" target="_blank">Link to my Github account</a>
+[Link to my Github account ](https://github.com/hegdevishwa)
+
+```js
+var React = require('react');
+var Markdown = require('react-markdown');
+
+React.render(
+  <Markdown source="# Your markdown here" />,
+  document.getElementById('content')
+);
